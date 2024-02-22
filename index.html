@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <h1>Привет мир</h1>
@@ -73,19 +79,107 @@
      <!--полигон + звезда--> 
        
       
-      <svg xmlns="http://www.w3.org/2000/svg" height="200" width="400">
+    <svg xmlns="http://www.w3.org/2000/svg" height="200" width="400">
         <text x="50" y="100" font-family="Verdana" font-size="30" fill="orange" opacity="0.9">Привет</text>
-      </svg> <!--Текст "Привет"-->
+    </svg> <!--Текст "Привет"-->
 
-      <svg xmlns="http://www.w3.org/2000/svg" height="250" width="400">
+    <svg xmlns="http://www.w3.org/2000/svg" height="250" width="400">
         <path d="M50 150 Q100 50 150 150 T250 150" fill="none" stroke="black" stroke-width="3" opacity="0.6" />
-      </svg> <!--Кривая произвольной формы-->
+    </svg> <!--Кривая произвольной формы-->
 
-      <svg xmlns="http://www.w3.org/2000/svg" height="200" width="400">
+    <svg xmlns="http://www.w3.org/2000/svg" height="200" width="400">
         <circle cx="100" cy="100" r="50" fill="pink" stroke="red" stroke-width="2" opacity="0.7" />
         <rect x="50" y="20" width="100" height="80" fill="blue" stroke="green" stroke-width="3" opacity="0.5" />
-      </svg> <!--комбинация круга и прямоугольника с наложением-->
-                  
+    </svg> <!--комбинация круга и прямоугольника с наложением-->
+                 
+    <table style="width:70%">
+        <tr>
+			<td>№</td>
+			<td>Имя</td>
+			<td>E-mail</td>
+			<td>Дата регистрации</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Дмитрий</td>
+			<td>dima@mail.com</td>
+			<td>21.01.2020</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Александр</td>
+			<td>alex@mail.com</td>
+			<td>22.01.2020</td>
+		</tr>
+      </table>
+      <br>
+
+
+      <table style="width:50%">
+        <tr> <!--строка-->
+          <td colspan="2" rowspan="2" >1</td> <!--заголовок-->
+          <td>1</td>
+          <td rowspan="2">1</td>
+          <td rowspan="2">1</td>
+        </tr>
+        <tr>
+              <td>1</td> <!--табличные данные.-->
+              
+        </tr>
+        <tr>
+         <td>1</td> <!--табличные данные.-->
+         <td>1</td> <!--табличные данные.-->
+         <td rowspan="2">1</td> <!--табличные данные.-->
+         <td colspan="2" rowspan="2">1</td> <!--табличные данные.-->
+      <!--табличные данные.-->
+        </tr>
+        <tr>
+          <td>1</td> <!--табличные данные.-->
+          <td>1</td> <!--табличные данные.-->
+        </tr>
+      </table>
+      <br>
+
+      <table style="width:50%">
+        <tr>
+			<td rowspan="2">6</td>
+			<td colspan="2">6</td>
+			<td>6</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td rowspan="2">6</td>
+			<td rowspan="2">6</td>
+			<td rowspan="3">6</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td rowspan="2">6</td>
+		</tr>
+		<tr>
+			<td colspan="3">6</td>
+		</tr>
+    </table>
+    <br>
+
+    <table style="width:50%">
+		<tr>
+			<td>11</td>
+			<td>11</td>
+			<td rowspan="2">11</td>
+			<td>11</td>
+			<td rowspan="2">11</td>
+		</tr>
+		<tr>
+			<td colspan="2">11</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2">11</td>
+			<td colspan="3">11</td>
+		</tr>
+</table>
 
 </body>
 </html>
