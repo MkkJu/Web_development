@@ -1,0 +1,21 @@
+#wrapper {
+	display: flex;
+	height: 100px;
+	width: 100%;
+}
+
+#sidebar {
+	width: 30%;
+	flex-shrink: 0;
+	background-color: gray;
+	padding: 10px;
+	text-align: left;
+}
+
+#content {
+	width: 70%;
+	flex-grow: 1;
+    background-color: green;
+	padding: 10px;
+	text-align: left;
+}

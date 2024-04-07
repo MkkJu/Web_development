@@ -1,0 +1,9 @@
+body {
+	background-color: blue;
+}
+
+.div {
+	width: 450px;
+	margin: 0 auto;
+	background-color: gray;
+}
