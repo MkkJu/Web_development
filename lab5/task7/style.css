@@ -1,0 +1,10 @@
+body {
+    background-color: #202040; /* темно-синий цвет фона */
+    color: #ff69b4; /* розовый цвет текста */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;            
+    margin: 0;                
+    text-align: center;       
+  }
